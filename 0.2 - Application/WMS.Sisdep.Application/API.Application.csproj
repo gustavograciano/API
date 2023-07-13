@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\0.3 - Domain\WMS.Sisdep.Domain\API.Domain.csproj" />
+    <ProjectReference Include="..\..\0.4 - Infra\4.3 - Middleware\WMS.Sisdep.Infra.Middleware\WMS.Sisdep.Infra.Middleware.csproj" />
+    <ProjectReference Include="..\..\0.4 - Infra\4.4 - Integration\WMS.Sisdep.Infra.Integration\WMS.Sisdep.Infra.Integration.csproj" />
+    <ProjectReference Include="..\WMS.Sisdep.Application.Core\API.Application.Core.csproj" />
+  </ItemGroup>
+
+</Project>

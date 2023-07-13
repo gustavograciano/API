@@ -1,0 +1,71 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:60222",
+      "sslPort": 44394
+    }
+  },
+  "profiles": {
+    "WMS.Sisdep.API": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:44394;http://localhost:5109",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "NEMAG"
+      }
+    },
+    "IIS Express - LOCAL": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "LOCAL"
+      }
+    },
+    "IIS Express - NEMAG": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "NEMAG"
+      }
+    },
+    "IIS Express - EFAST": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "EFAST"
+      }
+    },
+    "IIS Express - FNC": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "FNC"
+      }
+    },
+    "IIS Express - SOBEL": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "SOBEL"
+      }
+    },
+    "IIS Express - TOTAL": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "TOTAL"
+      }
+    }
+  }
+}
