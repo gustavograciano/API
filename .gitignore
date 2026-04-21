@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Environment-specific appsettings — contain production DB passwords/hosts
+appsettings.Local.json
+appsettings.Production.json
+appsettings.Nemag.json
+appsettings.FNC.json
+appsettings.EFAST.json
+appsettings.SOBEL.json
+appsettings.TOTAL.json
